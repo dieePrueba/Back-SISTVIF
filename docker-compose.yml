@@ -9,8 +9,8 @@ services:
     environment:
       - DATABASE_HOST=127.0.0.1
       - POSTGRES_DB=postgres
-      - POSTGRES_USER=postgres111afcorp
-      - POSTGRES_PASSWORD=postgres111AFcorp2023*
+      - POSTGRES_USER=postgresVF
+      - POSTGRES_PASSWORD=postgresVF2024*
       #- DATABASE_HOST=127.0.0.1
     volumes:   # primero se debe crear un volumen respaldo_bd_afcorp
     #- /Users/homesis/Documents/Desarrollo/SistemaAFCorp/BasesDatos/BD_AFCV1/DatosAFC1:/var/lib/postgresql/data
